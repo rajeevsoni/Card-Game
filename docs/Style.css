@@ -1,0 +1,143 @@
+.nav{
+    background: teal;
+    float:left;
+    height:auto;
+    width:95%;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#memory_board{
+    background: #CCC;
+    border:#999 1px solid;
+    width:95%;
+    height:auto;
+    padding:2px;
+    margin:5px;
+}
+
+#memory_board > div{
+    background:red no-repeat;
+    border:#000 1px solid;
+    width:10%;
+    height:100px;
+    float:left;
+    margin:10px;
+    padding:10px;
+    font-size:64px;
+    cursor:pointer;
+    text-align: center;
+
+}
+
+#score{
+    height:auto;
+    width:10%
+    float:left;
+    background: coral;
+}
+
+#click{
+    height:auto;
+    width:10%
+    float:left;
+    background:coral;
+}
+
+
+.innerLetter{
+    font-size: 80px !important;
+}
+
+
+@media (max-width: 1070px) and (min-width: 850px) {
+
+    .nav{
+        background: tomato;
+        float:left;
+        height:auto;
+        width:95%;
+        margin: 5px;
+        padding:5px;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    #memory_board{
+        background: #CCC;
+        border:#999 1px solid;
+        width:95%;
+        height:auto;
+        padding:2px;
+        margin:5px ;
+    }
+
+    #memory_board > div{
+        background:red no-repeat;
+        border:#000 1px solid;
+        width:9%;
+        height:75px;
+        float:left;
+        margin:10px;
+        padding:10px;
+        font-size:64px;
+        cursor:pointer;
+        text-align: center;
+
+    }
+
+    .innerLetter{
+        font-size: 60px !important;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 850px)  {
+
+    .nav{
+        background: orange;
+        float:left;
+        height:auto;
+        width:95%;
+        margin: 5px;
+        padding:5px;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    #memory_board{
+        background: #CCC;
+        border:#999 1px solid;
+        width:95%;
+        height:auto;
+        padding:2px;
+        margin:5px ;
+    }
+
+    #memory_board > div{
+        background:red no-repeat;
+        border:#000 1px solid;
+        width:7%;
+        height:45px;
+        float:left;
+        margin:10px;
+        padding:10px;
+        font-size:64px;
+        cursor:pointer;
+        text-align: center;
+
+    }
+
+    .innerLetter{
+        font-size: 40px !important;
+    }
+
+
+
+}
